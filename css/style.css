@@ -52,6 +52,279 @@ table {
   border-spacing: 0;
 }
 
+.hero {
+  background-image: url(../imgs/paulo.png);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero .overlay {
+  background-color: rgba(0, 0, 0, 0.555);
+  height: 100vh;
+}
+.hero .overlay h1 {
+  color: white;
+  font-family: semi;
+  font-size: 31px;
+  line-height: 40px;
+  text-align: start;
+  padding-top: 95%;
+  text-align: center;
+}
+
+.management {
+  margin-top: 15%;
+}
+.management h5 {
+  font-family: bold;
+  font-size: 20px;
+  text-align: center;
+  color: gray;
+  margin-left: 2%;
+  padding-bottom: 5px;
+}
+.management .line {
+  width: 20%;
+  height: 1px;
+  margin-left: 45%;
+}
+.management h3 {
+  font-family: bold;
+  font-size: 25px;
+  padding-top: 40px;
+  margin-left: 0;
+  margin-right: 5%;
+  line-height: 40px;
+}
+.management .text {
+  padding-top: 30px;
+}
+.management .text p {
+  font-family: semi;
+  color: gray;
+  font-size: 15px;
+  margin-left: 0%;
+  line-height: 30px;
+}
+.management .text .p {
+  padding-top: 15px;
+}
+
+.entertain {
+  margin-top: 8%;
+}
+.entertain h5 {
+  font-family: bold;
+  font-size: 25px;
+  text-align: center;
+  color: gray;
+  margin-left: 2%;
+  padding-bottom: 10px;
+}
+.entertain .line {
+  width: 20%;
+  height: 1px;
+  margin-left: 45%;
+}
+.entertain .enter {
+  margin-top: 20%;
+  position: relative;
+}
+.entertain .enter .content {
+  position: absolute;
+  top: 65%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.493);
+}
+.entertain .enter .content h6 {
+  font-family: bold;
+  font-size: 25px;
+  margin-left: 5%;
+  padding-top: 10px;
+}
+.entertain .enter .content .path {
+  width: 90%;
+  height: 2px;
+  margin-left: 5%;
+}
+.entertain .enter .content p {
+  font-family: semi;
+  font-size: 17px;
+  text-align: end;
+  margin-right: 5%;
+  padding-top: 5px;
+  padding-bottom: 8px;
+}
+
+.brand {
+  margin-top: 15%;
+}
+.brand h5 {
+  font-family: bold;
+  font-size: 25px;
+  text-align: center;
+  color: gray;
+  margin-left: 2%;
+  padding-bottom: 10px;
+}
+.brand .line {
+  width: 30%;
+  height: 1px;
+  margin-left: 50%;
+}
+.brand .imgs {
+  margin-top: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.brand .imgs1 {
+  margin-top: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.Hero {
+  background-image: url(../imgs/NoPat.png);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.Hero .overlay {
+  background-color: rgba(0, 0, 0, 0.397);
+  height: 100vh;
+}
+.Hero .overlay h1 {
+  color: white;
+  font-family: semi;
+  font-size: 31px;
+  line-height: 40px;
+  text-align: start;
+  padding-top: 90%;
+  text-align: center;
+}
+
+.financial {
+  background-color: black;
+  height: 85vh;
+  margin-top: 8%;
+}
+.financial h5 {
+  font-family: bold;
+  font-size: 20px;
+  text-align: center;
+  color: gray;
+  padding-top: 30px;
+  margin-left: 2%;
+  padding-bottom: 5px;
+}
+.financial .line {
+  width: 20%;
+  height: 1px;
+  margin-left: 45%;
+}
+.financial h3 {
+  font-family: bold;
+  font-size: 25px;
+  color: white;
+  padding-top: 40px;
+  margin-left: 0;
+  margin-right: 5%;
+  line-height: 40px;
+}
+.financial .text {
+  padding-top: 30px;
+}
+.financial .text p {
+  font-family: semi;
+  color: gray;
+  font-size: 15px;
+  margin-left: 0%;
+  line-height: 30px;
+}
+.financial .text .p {
+  padding-top: 15px;
+}
+
+.board {
+  background-image: url(../imgs/sabri-tuzcu-wunVFNvqhfE-unsplash.png);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.board .overlay {
+  background-color: rgba(0, 0, 0, 0.397);
+  height: 100vh;
+}
+.board .overlay h1 {
+  color: white;
+  font-family: semi;
+  font-size: 31px;
+  line-height: 40px;
+  text-align: start;
+  padding-top: 90%;
+  text-align: center;
+}
+
+.services {
+  margin-top: 15%;
+}
+.services h5 {
+  font-family: bold;
+  font-size: 20px;
+  text-align: center;
+  color: gray;
+  margin-left: 2%;
+  padding-bottom: 5px;
+}
+.services .line {
+  width: 20%;
+  height: 1px;
+  margin-left: 45%;
+}
+.services h3 {
+  font-family: bold;
+  font-size: 25px;
+  padding-top: 40px;
+  margin-left: 0;
+  margin-right: 5%;
+  line-height: 40px;
+}
+.services .text {
+  padding-top: 30px;
+}
+.services .text p {
+  font-family: semi;
+  color: gray;
+  font-size: 15px;
+  margin-left: 0%;
+  line-height: 30px;
+}
+.services .btn {
+  background-color: black;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  border-radius: 0;
+  color: white;
+  font-family: bold;
+  font-size: 15px;
+  margin-left: 20%;
+  margin-top: 5%;
+}
+.services .btn .arrow {
+  width: 15%;
+  margin-left: 10%;
+}
+.services .btn:hover {
+  background-color: skyblue;
+  box-shadow: 5px 5px 5px 5px black;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -59,7 +332,7 @@ table {
   position: absolute;
   width: 100%;
   height: 50%;
-  top: -10%;
+  top: -15%;
 }
 .header .menu {
   background-color: orangered;
@@ -67,9 +340,9 @@ table {
   top: 0;
   width: 100%;
   left: -100vw;
+  height: 120vh;
   opacity: 0;
   transition: 0.4s ease;
-  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -91,7 +364,7 @@ table {
 .header .hamburger .bar {
   height: 5px;
   width: 100%;
-  background-color: black;
+  background-color: white;
   border-radius: 5px;
   z-index: 999;
 }
@@ -123,7 +396,8 @@ table {
   background-color: white;
 }
 .header .logo {
-  width: 90%;
+  width: 50%;
+  margin-left: 45%;
 }
 
 .banner {
@@ -132,16 +406,1451 @@ table {
   background-position: center;
   background-repeat: no-repeat;
 }
+.banner h1 {
+  display: none;
+}
+.banner .h {
+  display: block;
+  color: white;
+  font-family: semi;
+  font-size: 31px;
+  line-height: 40px;
+  text-align: start;
+  padding-top: 70%;
+  margin-left: 5%;
+}
 
+.about {
+  margin-top: 15%;
+}
+.about h5 {
+  font-family: bold;
+  font-size: 20px;
+  text-align: center;
+  color: gray;
+  margin-left: 2%;
+  padding-bottom: 5px;
+}
+.about .line {
+  width: 25%;
+  height: 1px;
+  margin-left: 45%;
+}
+.about h3 {
+  font-family: bold;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 40px;
+  margin-left: 0;
+  margin-right: 5%;
+  line-height: 40px;
+}
+.about .text {
+  padding-top: 30px;
+}
+.about .text p {
+  font-family: semi;
+  color: gray;
+  font-size: 15px;
+  margin-left: 0%;
+  line-height: 30px;
+}
+.about .text .btn {
+  background-color: black;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  border-radius: 0;
+  color: white;
+  font-family: bold;
+  font-size: 15px;
+  margin-left: 30%;
+  margin-top: 5%;
+}
+.about .text .btn .arrow {
+  width: 15%;
+  margin-left: 10%;
+}
+.about .text .btn:hover {
+  background-color: skyblue;
+  box-shadow: 5px 5px 5px 5px black;
+}
+
+.Portfolio {
+  margin-top: 15%;
+}
+.Portfolio h5 {
+  font-family: bold;
+  font-size: 20px;
+  text-align: center;
+  color: gray;
+  margin-left: 2%;
+  padding-bottom: 5px;
+}
+.Portfolio .line {
+  width: 20%;
+  height: 1px;
+  margin-left: 45%;
+}
+.Portfolio h3 {
+  font-family: bold;
+  font-size: 25px;
+  padding-top: 40px;
+  margin-left: 0;
+  margin-right: 5%;
+  line-height: 40px;
+}
+.Portfolio .text {
+  padding-top: 30px;
+}
+.Portfolio .text p {
+  font-family: semi;
+  color: gray;
+  font-size: 15px;
+  margin-left: 0%;
+  line-height: 30px;
+}
+.Portfolio .text .p {
+  padding-top: 15px;
+}
+.Portfolio .text .btn {
+  background-color: black;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  border-radius: 0;
+  color: white;
+  font-family: bold;
+  font-size: 15px;
+  margin-left: 30%;
+  margin-top: 5%;
+}
+.Portfolio .text .btn .arrow {
+  width: 15%;
+  margin-left: 10%;
+}
+.Portfolio .text .btn:hover {
+  background-color: skyblue;
+  box-shadow: 5px 5px 5px 5px black;
+}
+
+.entertainment {
+  margin-top: 15%;
+}
+.entertainment h5 {
+  font-family: bold;
+  font-size: 20px;
+  text-align: center;
+  color: gray;
+  margin-left: 2%;
+  padding-bottom: 5px;
+}
+.entertainment .line {
+  width: 25%;
+  height: 1px;
+  margin-left: 50%;
+}
+.entertainment h3 {
+  font-family: bold;
+  font-size: 25px;
+  padding-top: 40px;
+  margin-left: 0;
+  margin-right: 5%;
+  line-height: 40px;
+}
+.entertainment p {
+  font-family: semi;
+  color: gray;
+  font-size: 15px;
+  margin-left: 0%;
+  line-height: 30px;
+}
+.entertainment .text1 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.entertainment .text2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+  align-items: center;
+  display: none;
+}
+
+.contact {
+  margin-top: 15%;
+}
+.contact h5 {
+  font-family: bold;
+  font-size: 20px;
+  text-align: center;
+  color: gray;
+  margin-left: 2%;
+  padding-bottom: 5px;
+}
+.contact .line {
+  width: 25%;
+  height: 1px;
+  margin-left: 45%;
+}
+.contact h3 {
+  font-family: bold;
+  font-size: 25px;
+  padding-top: 40px;
+  margin-left: 0;
+  margin-right: 5%;
+  line-height: 40px;
+}
+.contact .tex {
+  padding-top: 20px;
+}
+.contact .tex p {
+  font-family: bold;
+  color: gray;
+  font-size: 15px;
+  margin-left: 0%;
+  line-height: 30px;
+}
+.contact .btn {
+  background-color: black;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  border-radius: 0;
+  color: white;
+  font-family: bold;
+  font-size: 15px;
+  margin-left: 30%;
+  margin-top: 5%;
+}
+.contact .btn .arrow {
+  width: 15%;
+  margin-left: 10%;
+}
+.contact .btn:hover {
+  background-color: skyblue;
+  box-shadow: 5px 5px 5px 5px black;
+}
+
+footer {
+  background-color: black;
+  height: 30vh;
+  text-align: center;
+  margin-top: 15%;
+}
+footer .log {
+  width: 40%;
+  margin-top: 10%;
+  padding-bottom: 10px;
+}
+footer .rec {
+  width: 80%;
+}
+footer .foot {
+  padding-top: 30px;
+}
+footer .foot a {
+  color: white;
+  text-decoration: none;
+  font-family: regular;
+  padding: 2px;
+  font-size: 16px;
+}
+footer .foot a:hover {
+  color: skyblue;
+  text-decoration: none;
+}
+
+.banner1 {
+  background-image: url(../imgs/pexels.png);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.banner1 h1 {
+  color: white;
+  font-family: semi;
+  font-size: 31px;
+  line-height: 40px;
+  text-align: center;
+  padding-top: 90%;
+  margin-left: 5%;
+}
+
+.touch {
+  margin-top: 15%;
+}
+.touch h5 {
+  font-family: bold;
+  font-size: 20px;
+  text-align: center;
+  color: gray;
+  margin-left: 2%;
+  padding-bottom: 5px;
+}
+.touch .line {
+  width: 20%;
+  height: 1px;
+  margin-left: 45%;
+}
+.touch h3 {
+  font-family: bold;
+  font-size: 25px;
+  padding-top: 40px;
+  margin-left: 0;
+  margin-right: 5%;
+  line-height: 40px;
+}
+.touch .text {
+  padding-top: 30px;
+}
+.touch .text p {
+  font-family: semi;
+  color: gray;
+  font-size: 15px;
+  margin-left: 0%;
+  line-height: 30px;
+}
+.touch .text .p {
+  padding-top: 15px;
+}
+
+.location {
+  margin-top: 15%;
+}
+.location h5 {
+  font-family: bold;
+  font-size: 20px;
+  text-align: center;
+  color: gray;
+  margin-left: 2%;
+  padding-bottom: 5px;
+}
+.location .line {
+  width: 25%;
+  height: 1px;
+  margin-left: 50%;
+}
+.location h3 {
+  font-family: bold;
+  font-size: 25px;
+  padding-top: 40px;
+  margin-left: 0;
+  margin-right: 5%;
+  line-height: 40px;
+}
+.location p {
+  font-family: bold;
+  color: gray;
+  font-size: 15px;
+  margin-left: 0%;
+  line-height: 30px;
+}
+
+@media (min-width: 375px) {
+  .h {
+    font-size: 35px;
+    margin-left: 0%;
+  }
+}
+@media (min-width: 768px) {
+  .hero {
+    height: 75vh;
+  }
+  .hero .overlay {
+    height: 75vh;
+  }
+  .hero .overlay h1 {
+    padding-top: 55%;
+    font-size: 40px;
+  }
+
+  .management {
+    margin-top: 10%;
+  }
+  .management h5 {
+    font-family: bold;
+    font-size: 25px;
+    text-align: start;
+    color: gray;
+    margin-left: 2%;
+    padding-bottom: 10px;
+  }
+  .management .line {
+    width: 85%;
+    height: 1px;
+    margin-left: 2%;
+  }
+  .management h3 {
+    font-family: bold;
+    font-size: 30px;
+    padding-top: 40px;
+    margin-left: -10%;
+    margin-right: 5%;
+    line-height: 40px;
+  }
+  .management .text {
+    padding-top: 40px;
+  }
+  .management .text p {
+    font-family: semi;
+    color: gray;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .management .text .p {
+    padding-top: 20px;
+  }
+
+  .entertain {
+    margin-top: 8%;
+  }
+  .entertain h5 {
+    font-family: bold;
+    font-size: 25px;
+    text-align: start;
+    color: gray;
+    margin-left: 2%;
+    padding-bottom: 10px;
+  }
+  .entertain .line {
+    width: 85%;
+    height: 1px;
+    margin-left: 2%;
+  }
+  .entertain .enter {
+    margin-top: 20%;
+    position: relative;
+  }
+  .entertain .enter .content {
+    position: absolute;
+    top: 55%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.493);
+  }
+  .entertain .enter .content h6 {
+    font-family: bold;
+    font-size: 20px;
+    margin-left: 5%;
+    padding-top: 8px;
+  }
+  .entertain .enter .content .path {
+    width: 90%;
+    height: 2px;
+    margin-left: 5%;
+  }
+  .entertain .enter .content p {
+    font-family: semi;
+    font-size: 17px;
+    text-align: end;
+    margin-right: 5%;
+    padding-top: 5px;
+    padding-bottom: 8px;
+  }
+
+  .brand h5 {
+    font-family: bold;
+    font-size: 25px;
+    text-align: start;
+    color: gray;
+    margin-left: 2%;
+    padding-bottom: 10px;
+  }
+  .brand .line {
+    width: 85%;
+    height: 1px;
+    margin-left: 2%;
+  }
+  .brand .imgs {
+    margin-top: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .brand .imgs1 {
+    margin-top: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+  }
+
+  .Hero {
+    height: 75vh;
+  }
+  .Hero .overlay {
+    height: 75vh;
+  }
+  .Hero .overlay h1 {
+    padding-top: 55%;
+    font-size: 40px;
+  }
+
+  .financial {
+    height: 35vh;
+    margin-top: 8%;
+  }
+  .financial h5 {
+    font-family: bold;
+    font-size: 25px;
+    text-align: start;
+    color: gray;
+    padding-top: 40px;
+    margin-left: 2%;
+    padding-bottom: 10px;
+  }
+  .financial .line {
+    width: 85%;
+    height: 1px;
+    margin-left: 2%;
+  }
+  .financial h3 {
+    font-family: bold;
+    font-size: 30px;
+    padding-top: 40px;
+    margin-left: -10%;
+    margin-right: 5%;
+    line-height: 40px;
+  }
+  .financial .text {
+    padding-top: 40px;
+  }
+  .financial .text p {
+    font-family: semi;
+    color: gray;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .financial .text .p {
+    padding-top: 20px;
+  }
+
+  .board {
+    height: 75vh;
+  }
+  .board .overlay {
+    height: 75vh;
+  }
+  .board .overlay h1 {
+    padding-top: 55%;
+    font-size: 40px;
+  }
+
+  .services {
+    margin-top: 10%;
+  }
+  .services h5 {
+    font-family: bold;
+    font-size: 25px;
+    text-align: start;
+    color: gray;
+    margin-left: 2%;
+    padding-bottom: 10px;
+  }
+  .services .line {
+    width: 85%;
+    height: 1px;
+    margin-left: 2%;
+  }
+  .services h3 {
+    font-family: bold;
+    font-size: 30px;
+    padding-top: 40px;
+    margin-left: -10%;
+    margin-right: -55%;
+    line-height: 40px;
+  }
+  .services .text {
+    padding-top: 40px;
+  }
+  .services .text p {
+    font-family: semi;
+    color: gray;
+    font-size: 18px;
+    margin-left: 15%;
+    line-height: 30px;
+  }
+  .services .btn {
+    background-color: black;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    border-radius: 0;
+    color: white;
+    font-family: bold;
+    font-size: 20px;
+    margin-left: 55%;
+    margin-top: 5%;
+  }
+  .services .btn .arrow {
+    width: 15%;
+    margin-left: 10%;
+  }
+
+  .header {
+    top: -18%;
+  }
+  .header .menu {
+    height: 95vh;
+  }
+
+  .banner {
+    height: 75vh;
+  }
+  .banner .h {
+    display: none;
+  }
+  .banner h1 {
+    display: block;
+    color: white;
+    font-family: semi;
+    font-size: 40px;
+    margin-left: 5%;
+    line-height: 50px;
+    padding-top: 40%;
+  }
+
+  .about {
+    margin-top: 10%;
+  }
+  .about h5 {
+    font-family: bold;
+    font-size: 25px;
+    text-align: start;
+    color: gray;
+    margin-left: 2%;
+    padding-bottom: 10px;
+  }
+  .about .line {
+    width: 85%;
+    height: 1px;
+    margin-left: 2%;
+  }
+  .about h3 {
+    font-family: bold;
+    text-align: start;
+    font-size: 30px;
+    padding-top: 40px;
+    margin-left: -15%;
+    margin-right: 5%;
+    line-height: 40px;
+  }
+  .about .text {
+    padding-top: 40px;
+  }
+  .about .text p {
+    font-family: semi;
+    color: gray;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .about .text .btn {
+    background-color: black;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    border-radius: 0;
+    color: white;
+    font-family: bold;
+    font-size: 20px;
+    margin-left: 55%;
+    margin-top: 5%;
+  }
+  .about .text .btn .arrow {
+    width: 15%;
+    margin-left: 10%;
+  }
+
+  .Portfolio {
+    margin-top: 10%;
+  }
+  .Portfolio h5 {
+    font-family: bold;
+    font-size: 25px;
+    text-align: start;
+    color: gray;
+    margin-left: 2%;
+    padding-bottom: 10px;
+  }
+  .Portfolio .line {
+    width: 85%;
+    height: 1px;
+    margin-left: 2%;
+  }
+  .Portfolio h3 {
+    font-family: bold;
+    font-size: 30px;
+    padding-top: 40px;
+    margin-left: -10%;
+    margin-right: 5%;
+    line-height: 40px;
+  }
+  .Portfolio .text {
+    padding-top: 40px;
+  }
+  .Portfolio .text p {
+    font-family: semi;
+    color: gray;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .Portfolio .text .p {
+    padding-top: 20px;
+  }
+  .Portfolio .text .btn {
+    background-color: black;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    border-radius: 0;
+    color: white;
+    font-family: bold;
+    font-size: 20px;
+    margin-left: 55%;
+    margin-top: 5%;
+  }
+  .Portfolio .text .btn .arrow {
+    width: 15%;
+    margin-left: 10%;
+  }
+
+  .entertainment {
+    margin-top: 10%;
+  }
+  .entertainment h5 {
+    font-size: 25px;
+    text-align: start;
+    padding-bottom: 10px;
+  }
+  .entertainment .line {
+    width: 85%;
+    height: 1px;
+    margin-left: 2%;
+  }
+  .entertainment h3 {
+    font-size: 30px;
+    margin-left: -10%;
+  }
+  .entertainment p {
+    font-size: 18px;
+  }
+  .entertainment .text1 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    align-items: center;
+  }
+  .entertainment .text2 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    align-items: center;
+  }
+
+  .contact {
+    margin-top: 10%;
+  }
+  .contact h5 {
+    font-size: 25px;
+    text-align: start;
+    padding-bottom: 10px;
+  }
+  .contact .line {
+    width: 85%;
+    height: 1px;
+    margin-left: 2%;
+  }
+  .contact h3 {
+    font-size: 30px;
+    margin-left: -10%;
+  }
+  .contact .tex {
+    padding-top: 40px;
+  }
+  .contact .tex p {
+    font-size: 18px;
+  }
+  .contact .btn {
+    background-color: black;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    border-radius: 0;
+    color: white;
+    font-family: bold;
+    font-size: 20px;
+    margin-left: 55%;
+    margin-top: 5%;
+  }
+  .contact .btn .arrow {
+    width: 15%;
+    margin-left: 10%;
+  }
+
+  footer {
+    text-align: center;
+    margin-top: 10%;
+  }
+  footer .log {
+    width: 30%;
+    margin-top: 10%;
+    padding-bottom: 35px;
+  }
+  footer .foot {
+    padding-top: 30px;
+  }
+  footer .foot a {
+    color: white;
+    text-decoration: none;
+    font-family: regular;
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  .banner1 {
+    height: 75vh;
+  }
+  .banner1 h1 {
+    padding-top: 50%;
+    font-size: 40px;
+  }
+
+  .touch {
+    margin-top: 10%;
+  }
+  .touch h5 {
+    font-family: bold;
+    font-size: 25px;
+    text-align: start;
+    color: gray;
+    margin-left: 2%;
+    padding-bottom: 10px;
+  }
+  .touch .line {
+    width: 85%;
+    height: 1px;
+    margin-left: 2%;
+  }
+  .touch h3 {
+    font-family: bold;
+    font-size: 30px;
+    padding-top: 40px;
+    margin-left: -10%;
+    margin-right: 5%;
+    line-height: 40px;
+  }
+  .touch .text {
+    padding-top: 40px;
+  }
+  .touch .text p {
+    font-family: semi;
+    color: gray;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .touch .text .p {
+    padding-top: 20px;
+  }
+
+  .location {
+    margin-top: 10%;
+  }
+  .location h5 {
+    font-size: 25px;
+    text-align: start;
+    padding-bottom: 10px;
+  }
+  .location .line {
+    width: 85%;
+    height: 1px;
+    margin-left: 2%;
+  }
+  .location h3 {
+    font-size: 30px;
+    margin-left: -10%;
+  }
+  .location p {
+    font-size: 18px;
+  }
+  .location .text {
+    padding-top: 40px;
+  }
+}
+@media (min-width: 992px) {
+  .hero {
+    height: 55vh;
+  }
+  .hero .overlay {
+    height: 55vh;
+  }
+  .hero .overlay h1 {
+    padding-top: 35%;
+    font-size: 53px;
+  }
+
+  .management {
+    margin-top: 10%;
+  }
+  .management h5 {
+    font-size: 25px;
+  }
+  .management h3 {
+    font-size: 40px;
+    margin-left: -10%;
+    line-height: 50px;
+  }
+  .management .text p {
+    font-size: 25px;
+  }
+  .management .text .p {
+    padding-top: 25px;
+  }
+
+  .entertain {
+    margin-top: 8%;
+  }
+  .entertain h5 {
+    font-family: bold;
+    font-size: 25px;
+    color: gray;
+    margin-left: 2%;
+    padding-bottom: 10px;
+  }
+  .entertain .line {
+    width: 85%;
+    height: 1px;
+    margin-left: 2%;
+  }
+  .entertain .enter {
+    margin-top: 20%;
+    position: relative;
+  }
+  .entertain .enter .content {
+    position: absolute;
+    top: 64%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.493);
+  }
+  .entertain .enter .content h6 {
+    font-family: bold;
+    font-size: 25px;
+    margin-left: 5%;
+    padding-top: 10px;
+  }
+  .entertain .enter .content .path {
+    width: 90%;
+    height: 2px;
+    margin-left: 5%;
+  }
+  .entertain .enter .content p {
+    font-family: semi;
+    font-size: 17px;
+    text-align: end;
+    margin-right: 5%;
+    padding-top: 5px;
+    padding-bottom: 8px;
+  }
+
+  .Hero {
+    height: 55vh;
+  }
+  .Hero .overlay {
+    height: 55vh;
+  }
+  .Hero .overlay h1 {
+    padding-top: 35%;
+    font-size: 53px;
+  }
+
+  .financial {
+    height: 30vh;
+  }
+  .financial h5 {
+    font-size: 25px;
+  }
+  .financial h3 {
+    font-size: 40px;
+    margin-left: -10%;
+    line-height: 50px;
+  }
+  .financial .text p {
+    font-size: 25px;
+  }
+  .financial .text .p {
+    padding-top: 25px;
+  }
+
+  .board {
+    height: 55vh;
+  }
+  .board .overlay {
+    height: 55vh;
+  }
+  .board .overlay h1 {
+    padding-top: 35%;
+    font-size: 53px;
+  }
+
+  .services {
+    margin-top: 10%;
+  }
+  .services h5 {
+    font-size: 25px;
+  }
+  .services h3 {
+    font-size: 40px;
+    margin-left: -10%;
+    line-height: 50px;
+  }
+  .services .text p {
+    font-size: 25px;
+  }
+  .services .btn {
+    margin-left: 60%;
+    height: 55px;
+    width: 25%;
+  }
+
+  .header {
+    top: -20%;
+  }
+  .header .menu {
+    height: 75vh;
+  }
+
+  .banner {
+    height: 55vh;
+  }
+  .banner h1 {
+    font-size: 53px;
+    line-height: 65px;
+    padding-top: 28%;
+  }
+
+  .about {
+    margin-top: 10%;
+  }
+  .about h5 {
+    font-size: 25px;
+  }
+  .about h3 {
+    font-size: 40px;
+    margin-left: -10%;
+    line-height: 50px;
+  }
+  .about .text p {
+    font-size: 25px;
+  }
+  .about .text .btn {
+    margin-left: 50%;
+  }
+
+  .Portfolio {
+    margin-top: 10%;
+  }
+  .Portfolio h5 {
+    font-size: 25px;
+  }
+  .Portfolio h3 {
+    font-size: 40px;
+    margin-left: -10%;
+    line-height: 50px;
+  }
+  .Portfolio .text p {
+    font-size: 25px;
+  }
+  .Portfolio .text .p {
+    padding-top: 25px;
+  }
+  .Portfolio .text .btn {
+    margin-left: 50%;
+  }
+
+  .entertainment {
+    margin-top: 10%;
+  }
+  .entertainment h5 {
+    font-size: 25px;
+  }
+  .entertainment h3 {
+    font-size: 40px;
+    margin-left: -10%;
+    line-height: 50px;
+  }
+  .entertainment p {
+    font-size: 25px;
+  }
+  .entertainment .text1 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    align-items: center;
+  }
+  .entertainment .text2 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+    align-items: center;
+  }
+
+  .contact {
+    margin-top: 5%;
+  }
+  .contact h5 {
+    font-size: 25px;
+  }
+  .contact h3 {
+    font-size: 40px;
+    margin-left: -10%;
+    line-height: 50px;
+  }
+  .contact .line {
+    width: 85%;
+    height: 1px;
+    margin-left: 2%;
+  }
+  .contact .tex {
+    padding-top: 40px;
+  }
+  .contact .tex p {
+    font-size: 25px;
+  }
+  .contact .btn {
+    background-color: black;
+    width: 22%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-radius: 0;
+    color: white;
+    font-family: bold;
+    font-size: 20px;
+    margin-left: 66%;
+    margin-top: 5%;
+  }
+  .contact .btn .arrow {
+    width: 15%;
+    margin-left: 10%;
+  }
+
+  footer {
+    margin-top: 10%;
+    height: 25vh;
+  }
+  footer .log {
+    width: 30%;
+    margin-top: 5%;
+    padding-bottom: 35px;
+  }
+  footer .foot {
+    padding-top: 40px;
+  }
+  footer .foot a {
+    color: white;
+    text-decoration: none;
+    font-family: regular;
+    padding: 10px;
+    font-size: 28px;
+  }
+
+  .banner1 {
+    height: 55vh;
+  }
+  .banner1 h1 {
+    font-size: 53px;
+    padding-top: 35%;
+  }
+
+  .touch {
+    margin-top: 10%;
+  }
+  .touch h5 {
+    font-size: 25px;
+  }
+  .touch h3 {
+    font-size: 40px;
+    margin-left: -10%;
+    line-height: 50px;
+  }
+  .touch .text p {
+    font-size: 25px;
+  }
+  .touch .text .p {
+    padding-top: 25px;
+  }
+  .touch .text .btn {
+    margin-left: 50%;
+  }
+
+  .location {
+    margin-top: 5%;
+  }
+  .location h5 {
+    font-size: 25px;
+  }
+  .location h3 {
+    font-size: 40px;
+    margin-left: -10%;
+    line-height: 50px;
+  }
+  .location p {
+    font-size: 25px;
+  }
+}
 @media (min-width: 1200px) {
+  .hero {
+    height: 100vh;
+  }
+  .hero .overlay {
+    height: 100vh;
+  }
+  .hero .overlay h1 {
+    padding-top: 25%;
+  }
+
+  .management {
+    margin-top: 8%;
+  }
+  .management h5 {
+    font-family: bold;
+    font-size: 25px;
+    color: gray;
+    margin-left: 2%;
+    padding-bottom: 10px;
+  }
+  .management .line {
+    width: 85%;
+    height: 1px;
+    margin-left: 2%;
+  }
+  .management h3 {
+    font-family: bold;
+    font-size: 37px;
+    padding-top: 40px;
+    margin-left: -10%;
+    line-height: 50px;
+  }
+  .management .text {
+    padding-top: 40px;
+  }
+  .management .text p {
+    font-family: semi;
+    color: gray;
+    font-size: 25px;
+    margin-left: 5%;
+    line-height: 30px;
+  }
+  .management .text .p {
+    padding-top: 20px;
+  }
+
+  .entertain {
+    margin-top: 8%;
+  }
+  .entertain h5 {
+    font-family: bold;
+    font-size: 25px;
+    color: gray;
+    margin-left: 2%;
+    padding-bottom: 10px;
+  }
+  .entertain .line {
+    width: 85%;
+    height: 1px;
+    margin-left: 2%;
+  }
+  .entertain .enter {
+    margin-top: 20%;
+    position: relative;
+  }
+  .entertain .enter .content {
+    position: absolute;
+    top: 70%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.493);
+  }
+  .entertain .enter .content h6 {
+    font-family: bold;
+    font-size: 25px;
+    margin-left: 5%;
+    padding-top: 10px;
+  }
+  .entertain .enter .content .path {
+    width: 90%;
+    height: 2px;
+    margin-left: 5%;
+  }
+  .entertain .enter .content p {
+    font-family: semi;
+    font-size: 17px;
+    text-align: end;
+    margin-right: 5%;
+    padding-top: 5px;
+    padding-bottom: 8px;
+  }
+
+  .brand .imgs1 {
+    margin-left: 10%;
+  }
+  .brand #im {
+    margin-left: 25%;
+  }
+
+  .Hero {
+    height: 100vh;
+  }
+  .Hero .overlay {
+    height: 100vh;
+  }
+  .Hero .overlay h1 {
+    padding-top: 25%;
+  }
+
+  .financial {
+    background-color: black;
+    height: 70vh;
+    margin-top: 8%;
+  }
+  .financial h5 {
+    font-family: bold;
+    font-size: 25px;
+    color: gray;
+    padding-top: 80px;
+    margin-left: 2%;
+    padding-bottom: 10px;
+  }
+  .financial .line {
+    width: 85%;
+    height: 1px;
+    margin-left: 2%;
+  }
+  .financial h3 {
+    font-family: bold;
+    font-size: 40px;
+    color: white;
+    padding-top: 40px;
+    margin-left: -10%;
+    margin-right: 5%;
+    line-height: 40px;
+  }
+  .financial .text {
+    padding-top: 40px;
+  }
+  .financial .text p {
+    font-family: semi;
+    color: gray;
+    font-size: 25px;
+    margin-left: 5%;
+    line-height: 30px;
+  }
+  .financial .text .p {
+    padding-top: 20px;
+  }
+  .financial .text .btn {
+    background-color: black;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-radius: 0;
+    color: white;
+    font-family: bold;
+    font-size: 25px;
+    margin-left: 65%;
+    margin-top: 5%;
+  }
+  .financial .text .btn .arrow {
+    width: 15%;
+    margin-left: 10%;
+  }
+
+  .board {
+    height: 100vh;
+  }
+  .board .overlay {
+    height: 100vh;
+  }
+  .board .overlay h1 {
+    padding-top: 25%;
+  }
+
+  .services {
+    margin-top: 8%;
+  }
+  .services h5 {
+    font-family: bold;
+    font-size: 25px;
+    color: gray;
+    margin-left: 2%;
+    padding-bottom: 10px;
+  }
+  .services .line {
+    width: 85%;
+    height: 1px;
+    margin-left: 2%;
+  }
+  .services h3 {
+    font-family: bold;
+    font-size: 38px;
+    padding-top: 40px;
+    margin-left: -18%;
+    margin-right: 5%;
+    line-height: 40px;
+  }
+  .services .text {
+    padding-top: 40px;
+  }
+  .services .text p {
+    font-family: semi;
+    color: gray;
+    font-size: 25px;
+    margin-left: 5%;
+    line-height: 30px;
+  }
+  .services .btn {
+    background-color: black;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-radius: 0;
+    color: white;
+    font-family: bold;
+    font-size: 25px;
+    margin-left: 65%;
+    margin-top: 5%;
+  }
+  .services .btn .arrow {
+    width: 15%;
+    margin-left: 10%;
+  }
+
   .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: absolute;
     width: 100%;
-    height: 50%;
-    top: -10%;
+    height: 100vh;
+    top: -40%;
   }
   .header .menu {
     background-color: orangered;
@@ -151,7 +1860,7 @@ table {
     left: -100vw;
     opacity: 0;
     transition: 0.4s ease;
-    height: 100%;
+    height: 140vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -173,7 +1882,7 @@ table {
   .header .hamburger .bar {
     height: 5px;
     width: 100%;
-    background-color: black;
+    background-color: white;
     border-radius: 5px;
     z-index: 999;
   }
@@ -205,6 +1914,328 @@ table {
     background-color: white;
   }
   .header .logo {
+    width: 60%;
+    margin-left: 30%;
+    z-index: 999;
+  }
+
+  .banner {
+    height: 100vh;
+    background-position: left;
+  }
+  .banner .h {
+    display: none;
+  }
+  .banner h1 {
+    display: block;
+    color: white;
+    font-family: semi;
+    text-align: start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 18%;
+    line-height: 60px;
+    padding-top: 18%;
+    margin-right: 5%;
+    font-size: 53px;
+  }
+
+  .about {
+    margin-top: 8%;
+  }
+  .about h5 {
+    font-family: bold;
+    font-size: 25px;
+    color: gray;
+    margin-left: 2%;
+    padding-bottom: 10px;
+  }
+  .about .line {
+    width: 85%;
+    height: 1px;
+    margin-left: 2%;
+  }
+  .about h3 {
+    font-family: bold;
+    font-size: 40px;
+    padding-top: 40px;
+    margin-left: -10%;
+    margin-right: 5%;
+    line-height: 40px;
+  }
+  .about .text {
+    padding-top: 40px;
+  }
+  .about .text p {
+    font-family: semi;
+    color: gray;
+    font-size: 25px;
+    margin-left: 5%;
+    line-height: 30px;
+  }
+  .about .text .btn {
+    background-color: black;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-radius: 0;
+    color: white;
+    font-family: bold;
+    font-size: 25px;
+    margin-left: 65%;
+    margin-top: 5%;
+  }
+  .about .text .btn .arrow {
+    width: 15%;
+    margin-left: 10%;
+  }
+
+  .Portfolio {
+    margin-top: 5%;
+  }
+  .Portfolio h5 {
+    font-family: bold;
+    font-size: 25px;
+    color: gray;
+    margin-left: 2%;
+    padding-bottom: 10px;
+  }
+  .Portfolio .line {
+    width: 85%;
+    height: 1px;
+    margin-left: 2%;
+  }
+  .Portfolio h3 {
+    font-family: bold;
+    font-size: 40px;
+    padding-top: 40px;
+    margin-left: -10%;
+    margin-right: 5%;
+    line-height: 40px;
+  }
+  .Portfolio .text {
+    padding-top: 40px;
+  }
+  .Portfolio .text p {
+    font-family: semi;
+    color: gray;
+    font-size: 25px;
+    margin-left: 5%;
+    line-height: 30px;
+  }
+  .Portfolio .text .p {
+    padding-top: 20px;
+  }
+  .Portfolio .text .btn {
+    background-color: black;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-radius: 0;
+    color: white;
+    font-family: bold;
+    font-size: 25px;
+    margin-left: 65%;
+    margin-top: 5%;
+  }
+  .Portfolio .text .btn .arrow {
+    width: 15%;
+    margin-left: 10%;
+  }
+
+  .entertainment {
+    margin-top: 5%;
+  }
+  .entertainment h5 {
+    font-family: bold;
+    font-size: 25px;
+    color: gray;
+    margin-left: 2%;
+    padding-bottom: 10px;
+  }
+  .entertainment .line {
+    width: 85%;
+    height: 1px;
+    margin-left: 2%;
+  }
+  .entertainment h3 {
+    font-family: bold;
+    font-size: 40px;
+    padding-top: 40px;
+    margin-left: -10%;
+    line-height: 40px;
+  }
+  .entertainment p {
+    font-family: semi;
+    color: gray;
+    font-size: 25px;
+    margin-left: 5%;
+    line-height: 30px;
+  }
+  .entertainment .text1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    align-items: center;
+  }
+  .entertainment .text2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    align-items: center;
+  }
+
+  .contact {
+    margin-top: 5%;
+  }
+  .contact h5 {
+    font-family: bold;
+    font-size: 25px;
+    color: gray;
+    margin-left: 2%;
+    padding-bottom: 10px;
+  }
+  .contact .line {
+    width: 85%;
+    height: 1px;
+    margin-left: 2%;
+  }
+  .contact h3 {
+    font-family: bold;
+    font-size: 40px;
+    padding-top: 40px;
+    margin-left: -10%;
+  }
+  .contact .tex {
+    padding-top: 40px;
+  }
+  .contact .tex p {
+    font-family: bold;
+    color: gray;
+    font-size: 25px;
+    margin-left: 12%;
+    line-height: 35px;
+  }
+  .contact .btn {
+    background-color: black;
+    width: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-radius: 0;
+    color: white;
+    font-family: bold;
+    font-size: 25px;
+    margin-left: 65%;
+    margin-top: 5%;
+  }
+  .contact .btn .arrow {
+    width: 15%;
+    margin-left: 10%;
+  }
+
+  footer {
+    background-color: black;
+    height: 45vh;
+    text-align: center;
+    margin-top: 5%;
+  }
+  footer .log {
+    width: 25%;
+    margin-top: 4%;
+    padding-bottom: 35px;
+  }
+  footer .rec {
     width: 90%;
+  }
+  footer .foot {
+    padding-top: 30px;
+  }
+  footer .foot a {
+    color: white;
+    text-decoration: none;
+    font-family: regular;
+    padding: 10px;
+    font-size: 28px;
+  }
+
+  .banner1 {
+    height: 100vh;
+  }
+  .banner1 h1 {
+    padding-top: 25%;
+  }
+
+  .touch {
+    margin-top: 5%;
+  }
+  .touch h5 {
+    font-family: bold;
+    font-size: 25px;
+    color: gray;
+    margin-left: 2%;
+    padding-bottom: 10px;
+  }
+  .touch .line {
+    width: 85%;
+    height: 1px;
+    margin-left: 2%;
+  }
+  .touch h3 {
+    font-family: bold;
+    font-size: 40px;
+    padding-top: 40px;
+    margin-left: -10%;
+    margin-right: 5%;
+    line-height: 40px;
+  }
+  .touch .text {
+    padding-top: 40px;
+  }
+  .touch .text p {
+    font-family: semi;
+    color: gray;
+    font-size: 25px;
+    margin-left: 5%;
+    line-height: 30px;
+  }
+  .touch .text .p {
+    padding-top: 20px;
+  }
+
+  .location {
+    margin-top: 5%;
+  }
+  .location h5 {
+    font-family: bold;
+    font-size: 25px;
+    color: gray;
+    margin-left: 2%;
+    padding-bottom: 10px;
+  }
+  .location .line {
+    width: 85%;
+    height: 1px;
+    margin-left: 2%;
+  }
+  .location h3 {
+    font-family: bold;
+    font-size: 40px;
+    padding-top: 40px;
+    margin-left: -10%;
+    line-height: 40px;
+  }
+  .location p {
+    font-family: semi;
+    color: gray;
+    font-size: 25px;
+    margin-left: 5%;
+    line-height: 30px;
   }
 }/*# sourceMappingURL=style.css.map */

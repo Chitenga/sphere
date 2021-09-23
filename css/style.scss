@@ -54,13 +54,91 @@ table {
 	border-spacing: 0;
 }
 
-.header{display: flex; justify-content: space-between;align-items: center; position: absolute; width: 100%; height: 50%; top: -10%;
-    .menu{background-color: orangered; position: absolute; top: 0; width: 100%; left: -100vw; opacity: 0; transition: .4s ease; height: 100%; display: flex; justify-content: center; align-items: center; flex-direction: column; z-index: 998;
+// Home
+.hero{background-image: url(../imgs/paulo.png); height: 100vh; background-position: center;background-repeat: no-repeat;
+    .overlay{background-color: rgba(0, 0, 0, 0.555); height: 100vh;
+        h1{color: white; font-family: semi; font-size: 31px; line-height: 40px; text-align: start; padding-top:95%; text-align: center;}
+    }
+}
+
+.management{margin-top: 15%;
+    h5{font-family: bold; font-size: 20px; text-align: center; color: gray; margin-left: 2%; padding-bottom: 5px;}
+    .line{width: 20%; height: 1px; margin-left: 45%;}
+    h3{font-family: bold; font-size: 25px; padding-top: 40px; margin-left: 0; margin-right: 5%;line-height: 40px;}
+    .text{padding-top: 30px;
+        p{font-family: semi; color: gray; font-size: 15px; margin-left: 0%; line-height: 30px;}
+        .p{padding-top: 15px;}
+    }
+}
+
+.entertain{margin-top: 8%;
+    h5{font-family: bold; font-size: 25px; text-align: center; color: gray; margin-left: 2%; padding-bottom: 10px;}
+    .line{width: 20%; height: 1px; margin-left: 45%;}
+    .enter{margin-top: 20%; position: relative;
+        .content{position: absolute; top: 65%; color: white; background-color: rgba(0, 0, 0, 0.493);
+            h6{font-family: bold; font-size: 25px; margin-left: 5%; padding-top: 10px;}
+            .path{width: 90%; height: 2px; margin-left: 5%;}
+            p{font-family: semi; font-size: 17px; text-align: end; margin-right: 5%; padding-top: 5px; padding-bottom: 8px;}
+        }
+    }
+}
+
+.brand{margin-top: 15%;
+    h5{font-family: bold; font-size: 25px; text-align: center; color: gray; margin-left: 2%; padding-bottom: 10px;}
+    .line{width: 30%; height: 1px; margin-left: 50%;}
+    .imgs{margin-top: 25%; display: flex; justify-content: center; align-items: center;}
+    .imgs1{margin-top: 25%; display: flex; justify-content: center; align-items: center; display: none;}
+}
+// End Home
+
+// services
+.Hero{background-image: url(../imgs/NoPat.png); height: 100vh; background-position: center;background-repeat: no-repeat;
+    .overlay{background-color: rgba(0, 0, 0, 0.397); height: 100vh;
+        h1{color: white; font-family: semi; font-size: 31px; line-height: 40px; text-align: start; padding-top:90%; text-align: center;}
+    }
+}
+
+.financial{background-color: black; height: 85vh; margin-top: 8%;
+    h5{font-family: bold; font-size: 20px; text-align: center; color: gray; padding-top: 30px; margin-left: 2%; padding-bottom: 5px;}
+    .line{width: 20%; height: 1px; margin-left: 45%;}
+    h3{font-family: bold; font-size: 25px; color: white; padding-top: 40px; margin-left: 0; margin-right: 5%;line-height: 40px;}
+    .text{padding-top: 30px;
+        p{font-family: semi; color: gray; font-size: 15px; margin-left: 0%; line-height: 30px;}
+        .p{padding-top: 15px;}
+    }
+}
+// end services
+
+// About
+.board{background-image: url(../imgs/sabri-tuzcu-wunVFNvqhfE-unsplash.png); height: 100vh;background-position: center;background-repeat: no-repeat;
+    .overlay{background-color: rgba(0, 0, 0, 0.397); height: 100vh;
+        h1{color: white; font-family: semi; font-size: 31px; line-height: 40px; text-align: start; padding-top:90%; text-align: center;}
+    }
+}
+
+.services{margin-top: 15%;
+    h5{font-family: bold; font-size: 20px; text-align: center; color: gray; margin-left: 2%; padding-bottom: 5px;}
+    .line{width: 20%; height: 1px; margin-left: 45%;}
+    h3{font-family: bold; font-size: 25px; padding-top: 40px; margin-left: 0; margin-right: 5%;line-height: 40px;}
+    .text{padding-top: 30px;
+        p{font-family: semi; color: gray; font-size: 15px; margin-left: 0%; line-height: 30px;}
+    }
+    .btn{background-color: black; width: 60%; display: flex; justify-content: center; align-items: center;
+        height:35px; border-radius: 0; color: white; font-family: bold; font-size: 15px; margin-left: 20%; margin-top: 5%;
+        .arrow{width: 15%;margin-left: 10%;}
+        &:hover{background-color: skyblue; box-shadow: 5px 5px 5px 5px black;}
+       }
+}
+// End About
+
+// Portfolio
+.header{display: flex; justify-content: space-between;align-items: center; position: absolute; width: 100%; height: 50%; top: -15%;
+    .menu{background-color: orangered; position: absolute; top: 0; width: 100%; left: -100vw; height: 120vh; opacity: 0; transition: .4s ease; display: flex; justify-content: center; align-items: center; flex-direction: column; z-index: 998;
                 .menu-item{padding: 15px 20px; list-style: none;
                 }
             }
             .hamburger{height: 30px; width: 40px; display: flex; flex-direction: column; justify-content: center; margin-left: 2%;
-                .bar{height: 5px; width: 100%; background-color: black; border-radius: 5px; z-index: 999}
+                .bar{height: 5px; width: 100%; background-color: white; border-radius: 5px; z-index: 999}
                 #top{transform: translateY(-4px); transition: all .6s ease;}
                 #middle{transition: all .6s ease;}
                 #bottom{transform: translateY(4px); transition: all .6s ease;}
@@ -70,22 +148,533 @@ table {
                 #middle{opacity: 0; transform: rotate(360deg);}
                 #bottom{transform: translateY(-5px) rotate(-135deg); background-color: white;}
             }
-            .logo{width: 90%;}
+            .logo{width: 50%;margin-left: 45%;}
 }
 
-// banner
+
 .banner{background-image: url(../imgs/william.png);  height: 100vh; background-position: center;background-repeat: no-repeat;
+    h1{ display: none;}
+    .h{display: block;color: white; font-family: semi; font-size: 31px; line-height: 40px; text-align: start; padding-top:70%; margin-left: 5%;}
 }
-// end banner
+
+   .about{margin-top: 15%;   
+    h5{font-family: bold; font-size: 20px; text-align: center; color: gray; margin-left: 2%; padding-bottom: 5px;}
+    .line{width: 25%; height: 1px; margin-left: 45%;}
+    h3{font-family: bold; text-align: center; font-size: 25px; padding-top: 40px; margin-left: 0; margin-right: 5%;line-height: 40px;}
+    .text{padding-top: 30px;
+        p{font-family: semi; color: gray; font-size: 15px; margin-left: 0%; line-height: 30px;}
+        .btn{background-color: black; width: 40%; display: flex; justify-content: center; align-items: center;
+             height:35px; border-radius: 0; color: white; font-family: bold; font-size: 15px; margin-left: 30%; margin-top: 5%;
+             .arrow{width: 15%;margin-left: 10%;}
+             &:hover{background-color: skyblue; box-shadow: 5px 5px 5px 5px black;}
+            }
+    }
+}
+
+.Portfolio{margin-top: 15%;
+    h5{font-family: bold; font-size: 20px; text-align: center; color: gray; margin-left: 2%; padding-bottom: 5px;}
+    .line{width: 20%; height: 1px; margin-left: 45%;}
+    h3{font-family: bold; font-size: 25px; padding-top: 40px; margin-left: 0; margin-right: 5%;line-height: 40px;}
+    .text{padding-top: 30px;
+        p{font-family: semi; color: gray; font-size: 15px; margin-left: 0%; line-height: 30px;}
+        .p{padding-top: 15px;}
+        .btn{background-color: black; width: 40%; display: flex; justify-content: center; align-items: center;
+             height:35px; border-radius: 0; color: white; font-family: bold; font-size: 15px; margin-left: 30%; margin-top: 5%;
+             .arrow{width: 15%;margin-left: 10%;}
+             &:hover{background-color: skyblue; box-shadow: 5px 5px 5px 5px black;}
+            }
+    }
+}
+
+.entertainment{ margin-top: 15%;
+    h5{font-family: bold; font-size: 20px; text-align: center; color: gray; margin-left: 2%; padding-bottom: 5px;}
+    .line{width: 25%; height: 1px; margin-left: 50%;}
+    h3{font-family: bold; font-size: 25px; padding-top: 40px; margin-left: 0; margin-right: 5%;line-height: 40px;}
+    p{font-family: semi; color: gray; font-size: 15px; margin-left: 0%; line-height: 30px;}
+    .text1{display: flex; justify-content: space-between; padding-top: 20px; 
+    }
+    .text2{display: flex; justify-content: center; padding-top: 5px;align-items: center; display: none;
+    }
+}
+
+.contact{margin-top: 15%;
+    h5{font-family: bold; font-size: 20px; text-align: center; color: gray; margin-left: 2%; padding-bottom: 5px;}
+    .line{width: 25%; height: 1px; margin-left: 45%;}
+    h3{font-family: bold; font-size: 25px; padding-top: 40px; margin-left: 0; margin-right: 5%;line-height: 40px;}
+    .tex{padding-top: 20px;
+        p{font-family: bold; color: gray; font-size: 15px; margin-left: 0%; line-height: 30px;}
+    }
+    .btn{background-color: black; width: 40%; display: flex; justify-content: center; align-items: center;
+        height:35px; border-radius: 0; color: white; font-family: bold; font-size: 15px; margin-left: 30%; margin-top: 5%;
+        .arrow{width: 15%;margin-left: 10%;}
+        &:hover{background-color: skyblue; box-shadow: 5px 5px 5px 5px black;}
+       }
+}
+
+ footer{background-color: black; height: 30vh; text-align: center; margin-top: 15%;
+    .log{width: 40%; margin-top: 10%; padding-bottom: 10px;}
+    .rec{width: 80%;}
+
+    // start foot
+    .foot{ padding-top: 30px;
+        a{color: white; text-decoration: none; font-family: regular; padding: 2px; font-size: 16px;
+            &:hover{color: skyblue; text-decoration: none;}
+        }
+    }
+    // end foot
+}
+
+// end portfolio
+
+
+
+
+// contact Us
+.banner1{background-image: url(../imgs/pexels.png); height: 100vh; background-position: center; background-repeat: no-repeat;
+    h1{color: white; font-family: semi; font-size: 31px; line-height: 40px; text-align: center; padding-top: 90%; margin-left: 5%;}
+}
+
+.touch{margin-top: 15%;
+    h5{font-family: bold; font-size: 20px; text-align: center; color: gray; margin-left: 2%; padding-bottom: 5px;}
+    .line{width: 20%; height: 1px; margin-left: 45%;}
+    h3{font-family: bold; font-size: 25px; padding-top: 40px; margin-left: 0; margin-right: 5%;line-height: 40px;}
+    .text{padding-top: 30px;
+        p{font-family: semi; color: gray; font-size: 15px; margin-left: 0%; line-height: 30px;}
+        .p{padding-top: 15px;}
+    }
+}
+
+.location{margin-top: 15%;
+    h5{font-family: bold; font-size: 20px; text-align: center; color: gray; margin-left: 2%; padding-bottom: 5px;}
+    .line{width: 25%; height: 1px; margin-left: 50%;}
+    h3{font-family: bold; font-size: 25px; padding-top: 40px; margin-left: 0; margin-right: 5%;line-height: 40px;}
+    p{font-family: bold; color: gray; font-size: 15px; margin-left: 0%; line-height: 30px;}
+}
+
+// end contact us
+
+@media(min-width:375px){
+    .h{font-size: 35px;margin-left: 0%;}
+    
+}
+
+@media(min-width:768px){
+
+// Home
+.hero{height: 75vh;
+    .overlay{height: 75vh;
+        h1{padding-top: 55%; font-size: 40px;}
+    }
+}
+
+.management{margin-top: 10%;
+    h5{font-family: bold; font-size: 25px; text-align: start; color: gray; margin-left: 2%; padding-bottom: 10px;}
+    .line{width: 85%; height: 1px; margin-left: 2%;}
+    h3{font-family: bold; font-size: 30px; padding-top: 40px; margin-left: -10%; margin-right: 5%;line-height: 40px;}
+    .text{padding-top: 40px;
+        p{font-family: semi; color: gray; font-size: 18px; line-height: 30px;}
+        .p{padding-top: 20px;}
+    }
+}
+
+.entertain{margin-top: 8%;
+    h5{font-family: bold; font-size: 25px; text-align: start; color: gray; margin-left: 2%; padding-bottom: 10px;}
+    .line{width: 85%; height: 1px; margin-left: 2%;}
+    .enter{margin-top: 20%; position: relative;
+        .content{position: absolute; top: 55%; color: white; background-color: rgba(0, 0, 0, 0.493);
+            h6{font-family: bold; font-size: 20px; margin-left: 5%; padding-top: 8px;}
+            .path{width: 90%; height: 2px; margin-left: 5%;}
+            p{font-family: semi; font-size: 17px; text-align: end; margin-right: 5%; padding-top: 5px; padding-bottom: 8px;}
+        }
+    }
+}
+
+.brand{
+    h5{font-family: bold; font-size: 25px; text-align: start; color: gray; margin-left: 2%; padding-bottom: 10px;}
+    .line{width: 85%; height: 1px; margin-left: 2%;}
+    .imgs{margin-top: 25%; display: flex; justify-content: center; align-items: center;}
+    .imgs1{margin-top: 25%; display: flex; justify-content: center; align-items: center; display: block;}
+}
+
+// End Home
+
+// services
+.Hero{height: 75vh;
+    .overlay{height: 75vh;
+        h1{padding-top: 55%; font-size: 40px;}
+    }
+}
+
+.financial{height: 35vh; margin-top: 8%;
+    h5{font-family: bold; font-size: 25px; text-align: start; color: gray; padding-top: 40px; margin-left: 2%; padding-bottom: 10px;}
+    .line{width: 85%; height: 1px; margin-left: 2%;}
+    h3{font-family: bold; font-size: 30px; padding-top: 40px; margin-left: -10%; margin-right: 5%;line-height: 40px;}
+    .text{padding-top: 40px;
+        p{font-family: semi; color: gray; font-size: 18px; line-height: 30px;}
+        .p{padding-top: 20px;}
+    }
+}
+// end services
+
+// About
+.board{height: 75vh;
+    .overlay{height: 75vh;
+        h1{padding-top: 55%; font-size: 40px;}
+    }
+}
+
+.services{margin-top: 10%;
+    h5{font-family: bold; font-size: 25px; text-align: start; color: gray; margin-left: 2%; padding-bottom: 10px;}
+    .line{width: 85%; height: 1px; margin-left: 2%;}
+    h3{font-family: bold; font-size: 30px; padding-top: 40px; margin-left: -10%; margin-right: -55%;line-height: 40px;}
+    .text{padding-top: 40px;
+        p{font-family: semi; color: gray; font-size: 18px; margin-left: 15%; line-height: 30px;}
+    }
+    .btn{background-color: black; width: 35%; display: flex; justify-content: center; align-items: center;
+        height:45px; border-radius: 0; color: white; font-family: bold; font-size: 20px; margin-left: 55%; margin-top: 5%;
+        .arrow{width: 15%;margin-left: 10%;}
+       }
+}
+// End About
+
+
+    // Portfolio
+    .header{top: -18%;
+        .menu{height: 95vh;
+        }
+    }
+
+.banner{height: 75vh;
+    .h{display: none;}
+    h1{display: block;color: white; font-family: semi; font-size: 40px; margin-left: 5%; line-height: 50px; padding-top: 40%;}
+}
+
+  .about{margin-top: 10%;   
+    h5{font-family: bold; font-size: 25px; text-align: start; color: gray; margin-left: 2%; padding-bottom: 10px;}
+    .line{width: 85%; height: 1px; margin-left: 2%;}
+    h3{font-family: bold; text-align: start; font-size: 30px; padding-top: 40px; margin-left: -15%; margin-right: 5%;line-height: 40px;}
+    .text{padding-top: 40px;
+        p{font-family: semi; color: gray; font-size: 18px; line-height: 30px;}
+        .btn{background-color: black; width: 35%; display: flex; justify-content: center; align-items: center;
+             height:45px; border-radius: 0; color: white; font-family: bold; font-size: 20px; margin-left: 55%; margin-top: 5%;
+             .arrow{width: 15%;margin-left: 10%;}
+            }
+    }
+}
+
+.Portfolio{margin-top: 10%;
+    h5{font-family: bold; font-size: 25px; text-align: start; color: gray; margin-left: 2%; padding-bottom: 10px;}
+    .line{width: 85%; height: 1px; margin-left: 2%;}
+    h3{font-family: bold; font-size: 30px; padding-top: 40px; margin-left: -10%; margin-right: 5%;line-height: 40px;}
+    .text{padding-top: 40px;
+        p{font-family: semi; color: gray; font-size: 18px; line-height: 30px;}
+        .p{padding-top: 20px;}
+        .btn{background-color: black; width: 35%; display: flex; justify-content: center; align-items: center;
+             height:45px; border-radius: 0; color: white; font-family: bold; font-size: 20px; margin-left: 55%; margin-top: 5%;
+             .arrow{width: 15%;margin-left: 10%;}
+            }
+    }
+}
+
+.entertainment{ margin-top: 10%;
+    h5{font-size: 25px; text-align: start;padding-bottom: 10px;}
+    .line{width: 85%; height: 1px; margin-left: 2%;}
+    h3{font-size: 30px; margin-left: -10%;}
+    p{font-size: 18px;}
+    .text1{display: flex; justify-content: space-between; padding-top: 40px;align-items: center;
+    }
+    .text2{display: flex; justify-content: space-between; padding-top: 5px;align-items: center;
+    }
+}
+
+.contact{margin-top: 10%;
+    h5{font-size: 25px; text-align: start;padding-bottom: 10px;}
+    .line{width: 85%; height: 1px; margin-left: 2%;}
+    h3{font-size: 30px; margin-left: -10%;}
+    .tex{padding-top: 40px;
+        p{font-size: 18px;}
+    }
+    .btn{background-color: black; width: 35%; display: flex; justify-content: center; align-items: center;
+        height:45px; border-radius: 0; color: white; font-family: bold; font-size: 20px; margin-left: 55%; margin-top: 5%;
+        .arrow{width: 15%;margin-left: 10%;}
+       }
+}
+
+ footer{ text-align: center; margin-top: 10%;
+    .log{width: 30%; margin-top: 10%; padding-bottom: 35px;}
+
+    // start foot
+    .foot{ padding-top: 30px;
+        a{color: white; text-decoration: none; font-family: regular; padding: 10px; font-size: 20px;}
+    }
+    // end foot
+}
+
+// End portfolio
+
+// Contact Us
+.banner1{height: 75vh;
+    h1{padding-top: 50%; font-size: 40px;}
+}
+
+.touch{margin-top: 10%;
+    h5{font-family: bold; font-size: 25px; text-align: start; color: gray; margin-left: 2%; padding-bottom: 10px;}
+    .line{width: 85%; height: 1px; margin-left: 2%;}
+    h3{font-family: bold; font-size: 30px; padding-top: 40px; margin-left: -10%; margin-right: 5%;line-height: 40px;}
+    .text{padding-top: 40px;
+        p{font-family: semi; color: gray; font-size: 18px; line-height: 30px;}
+        .p{padding-top: 20px;}
+    }
+}
+
+.location{margin-top: 10%;
+    h5{font-size: 25px; text-align: start;padding-bottom: 10px;}
+    .line{width: 85%; height: 1px; margin-left: 2%;}
+    h3{font-size: 30px; margin-left: -10%;}
+    p{font-size: 18px;}
+    .text{padding-top: 40px;}
+}
+// end Contact Us
+}
+
+@media(min-width:992px){
+
+    // Home
+    .hero{height: 55vh;
+        .overlay{height: 55vh;
+            h1{padding-top: 35%; font-size: 53px;}
+        }
+    }
+
+    .management{margin-top: 10%;
+        h5{font-size: 25px;}
+        h3{font-size: 40px; margin-left: -10%; line-height: 50px;}
+        .text{
+            p{font-size: 25px;}
+            .p{padding-top: 25px;}
+        }
+    }
+
+    .entertain{margin-top: 8%;
+        h5{font-family: bold; font-size: 25px; color: gray; margin-left: 2%; padding-bottom: 10px;}
+        .line{width: 85%; height: 1px; margin-left: 2%;}
+        .enter{margin-top: 20%; position: relative;
+            .content{position: absolute; top: 64%; color: white; background-color: rgba(0, 0, 0, 0.493);
+                h6{font-family: bold; font-size: 25px; margin-left: 5%; padding-top: 10px;}
+                .path{width: 90%; height: 2px; margin-left: 5%;}
+                p{font-family: semi; font-size: 17px; text-align: end; margin-right: 5%; padding-top: 5px; padding-bottom: 8px;}
+            }
+        }
+    }
+    // End Home
+
+    // services
+    .Hero{height: 55vh;
+        .overlay{height: 55vh;
+            h1{padding-top: 35%; font-size: 53px;}
+        }
+    }
+
+    .financial{height: 30vh;
+        h5{font-size: 25px;}
+        h3{font-size: 40px; margin-left: -10%; line-height: 50px;}
+        .text{
+            p{font-size: 25px;}
+            .p{padding-top: 25px;}
+        }
+    }
+    // end services
+
+    // About
+    .board{height: 55vh;
+        .overlay{height: 55vh;
+            h1{padding-top: 35%; font-size: 53px;}
+        }
+    }
+
+    .services{margin-top: 10%;
+        h5{font-size: 25px;}
+        h3{font-size: 40px; margin-left: -10%; line-height: 50px;}
+        .text{
+            p{font-size: 25px;}
+        }
+        .btn{margin-left: 60%; height: 55px; width: 25%; }
+    }
+    // End About
+
+    // Portfolio
+    .header{top: -20%;
+        .menu{height: 75vh;}
+    }
+ .banner{height: 55vh;
+        h1{font-size: 53px; line-height: 65px; padding-top: 28%;}
+    }
+
+    .about{margin-top: 10%;
+        h5{font-size: 25px;}
+        h3{font-size: 40px; margin-left: -10%; line-height: 50px;}
+        .text{
+            p{font-size: 25px;}
+            .btn{margin-left: 50%;}
+        }
+    }
+   
+    .Portfolio{margin-top: 10%;
+        h5{font-size: 25px;}
+        h3{font-size: 40px; margin-left: -10%; line-height: 50px;}
+        .text{
+            p{font-size: 25px;}
+            .p{padding-top: 25px;}
+            .btn{margin-left: 50%;}
+        }
+    }
+    
+.entertainment{ margin-top: 10%;
+    h5{font-size: 25px;}
+    h3{font-size: 40px; margin-left: -10%; line-height: 50px;}
+    p{font-size: 25px;}
+    .text1{display: flex; justify-content: space-between; padding-top: 40px;align-items: center;
+    }
+    .text2{display: flex; justify-content: space-between; padding-top: 8px;align-items: center;
+    }
+}
+
+.contact{margin-top: 5%;
+    h5{font-size: 25px;}
+    h3{font-size: 40px; margin-left: -10%; line-height: 50px;}
+    .line{width: 85%; height: 1px; margin-left: 2%;}
+    .tex{padding-top: 40px;
+        p{font-size: 25px;}
+    }
+    .btn{background-color: black; width: 22%; display: flex; justify-content: center; align-items: center;
+        height:50px; border-radius: 0; color: white; font-family: bold; font-size: 20px; margin-left: 66%; margin-top: 5%;
+        .arrow{width: 15%;margin-left: 10%;}
+       }
+}
+
+footer{ margin-top: 10%; height:25vh;
+    .log{width: 30%; margin-top: 5%; padding-bottom: 35px;}
+
+    // start foot
+    .foot{ padding-top: 40px;
+        a{color: white; text-decoration: none; font-family: regular; padding: 10px; font-size: 28px;}
+    }
+    // end foot
+    
+}
+
+// End Portfolio
+
+
+// Contact Us
+.banner1{height: 55vh;
+    h1{font-size: 53px; padding-top: 35%;}
+}
+.touch{margin-top: 10%;
+    h5{font-size: 25px;}
+    h3{font-size: 40px; margin-left: -10%; line-height: 50px;}
+    .text{
+        p{font-size: 25px;}
+        .p{padding-top: 25px;}
+        .btn{margin-left: 50%;}
+    }
+}
+
+.location{margin-top: 5%;
+    h5{font-size: 25px;}
+    h3{font-size: 40px; margin-left: -10%; line-height: 50px;}
+    p{font-size: 25px;}
+}
+// end Contact Us
+}
 
 @media(min-width:1200px){
-    .header{display: flex; justify-content: space-between;align-items: center; position: absolute; width: 100%; height: 50%; top: -10%;
-        .menu{background-color: orangered; position: absolute; top: 0; width: 100%; left: -100vw; opacity: 0; transition: .4s ease; height: 100%; display: flex; justify-content: center; align-items: center; flex-direction: column; z-index: 998;
+
+    // Home
+    .hero{height: 100vh;
+        .overlay{height: 100vh;
+            h1{padding-top: 25%;}
+        }
+    }
+
+    .management{margin-top: 8%;
+         h5{font-family: bold; font-size: 25px; color: gray; margin-left: 2%; padding-bottom: 10px;}
+        .line{width: 85%; height: 1px; margin-left: 2%;}
+        h3{font-family: bold; font-size: 37px; padding-top: 40px; margin-left: -10%; line-height: 50px;}
+        .text{padding-top: 40px;
+            p{font-family: semi; color: gray; font-size: 25px; margin-left: 5%; line-height: 30px;}
+            .p{padding-top: 20px;}
+        }
+    }
+
+    .entertain{margin-top: 8%;
+        h5{font-family: bold; font-size: 25px; color: gray; margin-left: 2%; padding-bottom: 10px;}
+        .line{width: 85%; height: 1px; margin-left: 2%;}
+        .enter{margin-top: 20%; position: relative;
+            .content{position: absolute; top: 70%; color: white; background-color: rgba(0, 0, 0, 0.493);
+                h6{font-family: bold; font-size: 25px; margin-left: 5%; padding-top: 10px;}
+                .path{width: 90%; height: 2px; margin-left: 5%;}
+                p{font-family: semi; font-size: 17px; text-align: end; margin-right: 5%; padding-top: 5px; padding-bottom: 8px;}
+            }
+        }
+    }
+
+    .brand{
+        .imgs1{margin-left: 10%;}
+        #im{margin-left: 25%;}
+    }
+    // End Home
+
+    // services
+    .Hero{height: 100vh;
+        .overlay{height: 100vh;
+            h1{padding-top: 25%;}
+        }
+    }
+
+    .financial{background-color: black; height: 70vh; margin-top: 8%;
+        h5{font-family: bold; font-size: 25px; color: gray; padding-top: 80px; margin-left: 2%; padding-bottom: 10px;}
+        .line{width: 85%; height: 1px; margin-left: 2%;}
+        h3{font-family: bold; font-size: 40px; color: white; padding-top: 40px; margin-left: -10%; margin-right: 5%;line-height: 40px;}
+        .text{padding-top: 40px;
+            p{font-family: semi; color: gray; font-size: 25px; margin-left: 5%; line-height: 30px;}
+            .p{padding-top: 20px;}
+            .btn{background-color: black; width: 30%; display: flex; justify-content: center; align-items: center;
+                 height:50px; border-radius: 0; color: white; font-family: bold; font-size: 25px; margin-left: 65%; margin-top: 5%;
+                 .arrow{width: 15%;margin-left: 10%;}
+                }
+        }
+    }
+    // end services
+
+    // About
+    .board{height: 100vh;
+        .overlay{height: 100vh;
+            h1{padding-top: 25%;}
+        }
+    }
+
+    .services{margin-top: 8%;
+        h5{font-family: bold; font-size: 25px; color: gray; margin-left: 2%; padding-bottom: 10px;}
+        .line{width: 85%; height: 1px; margin-left: 2%;}
+        h3{font-family: bold; font-size: 38px; padding-top: 40px; margin-left: -18%; margin-right: 5%;line-height: 40px;}
+        .text{padding-top: 40px;
+            p{font-family: semi; color: gray; font-size: 25px; margin-left: 5%; line-height: 30px;}
+        }
+        .btn{background-color: black; width: 25%; display: flex; justify-content: center; align-items: center;
+            height:50px; border-radius: 0; color: white; font-family: bold; font-size: 25px; margin-left: 65%; margin-top: 5%;
+            .arrow{width: 15%;margin-left: 10%;}
+           }
+    }
+    // End About
+
+    .header{display: flex; justify-content: space-between;align-items: center; position: absolute; width: 100%; height: 100vh; top: -40%;
+        .menu{background-color: orangered; position: absolute; top: 0; width: 100%; left: -100vw; opacity: 0; transition: .4s ease; height: 140vh; display: flex; justify-content: center; align-items: center; flex-direction: column; z-index: 998;
                     .menu-item{padding: 15px 20px; list-style: none;
                     }
                 }
                 .hamburger{height: 30px; width: 40px; display: flex; flex-direction: column; justify-content: center; margin-left: 2%;
-                    .bar{height: 5px; width: 100%; background-color: black; border-radius: 5px; z-index: 999}
+                    .bar{height: 5px; width: 100%; background-color: white; border-radius: 5px; z-index: 999}
                     #top{transform: translateY(-4px); transition: all .6s ease;}
                     #middle{transition: all .6s ease;}
                     #bottom{transform: translateY(4px); transition: all .6s ease;}
@@ -95,6 +684,97 @@ table {
                     #middle{opacity: 0; transform: rotate(360deg);}
                     #bottom{transform: translateY(-5px) rotate(-135deg); background-color: white;}
                 }
-                .logo{width: 90%;}
+                .logo{width: 60%;margin-left: 30%;}
     }
+    
+    .banner{height: 100vh; background-position: left;
+        .h{display: none;}
+        h1{display: block; color:white;font-family: semi; text-align: start; display: flex; justify-content: center; align-items: center; margin-left: 18%; line-height: 60px; padding-top: 18%; margin-right: 5%; font-size: 53px;}
+    }
+    
+    .about{margin-top: 8%;   
+        h5{font-family: bold; font-size: 25px; color: gray; margin-left: 2%; padding-bottom: 10px;}
+        .line{width: 85%; height: 1px; margin-left: 2%;}
+        h3{font-family: bold; font-size: 40px; padding-top: 40px; margin-left: -10%; margin-right: 5%;line-height: 40px;}
+        .text{padding-top: 40px;
+            p{font-family: semi; color: gray; font-size: 25px; margin-left: 5%; line-height: 30px;}
+            .btn{background-color: black; width: 30%; display: flex; justify-content: center; align-items: center;
+                 height:50px; border-radius: 0; color: white; font-family: bold; font-size: 25px; margin-left: 65%; margin-top: 5%;
+                 .arrow{width: 15%;margin-left: 10%;}
+                }
+        }
+    }
+    
+    .Portfolio{margin-top: 5%;
+        h5{font-family: bold; font-size: 25px; color: gray; margin-left: 2%; padding-bottom: 10px;}
+        .line{width: 85%; height: 1px; margin-left: 2%;}
+        h3{font-family: bold; font-size: 40px; padding-top: 40px; margin-left: -10%; margin-right: 5%;line-height: 40px;}
+        .text{padding-top: 40px;
+            p{font-family: semi; color: gray; font-size: 25px; margin-left: 5%; line-height: 30px;}
+            .p{padding-top: 20px;}
+            .btn{background-color: black; width: 30%; display: flex; justify-content: center; align-items: center;
+                 height:50px; border-radius: 0; color: white; font-family: bold; font-size: 25px; margin-left: 65%; margin-top: 5%;
+                 .arrow{width: 15%;margin-left: 10%;}
+                }
+        }
+    }
+   
+    .entertainment{ margin-top: 5%;
+        h5{font-family: bold; font-size: 25px; color: gray; margin-left: 2%; padding-bottom: 10px;}
+        .line{width: 85%; height: 1px; margin-left: 2%;}
+        h3{font-family: bold; font-size: 40px; padding-top: 40px; margin-left: -10%;line-height: 40px;}
+        p{font-family: semi; color: gray; font-size: 25px; margin-left: 5%; line-height: 30px;}
+        .text1{display: flex; justify-content: center; padding-top: 40px;align-items: center;
+        }
+        .text2{display: flex; justify-content: center; padding-top: 5px;align-items: center;
+        }
+    }
+   
+    .contact{margin-top: 5%;
+        h5{font-family: bold; font-size: 25px; color: gray; margin-left: 2%; padding-bottom: 10px;}
+        .line{width: 85%; height: 1px; margin-left: 2%;}
+        h3{font-family: bold; font-size: 40px; padding-top: 40px; margin-left: -10%;}
+        .tex{padding-top: 40px;
+            p{font-family: bold; color: gray; font-size: 25px; margin-left: 12%; line-height: 35px;}
+        }
+        .btn{background-color: black; width: 18%; display: flex; justify-content: center; align-items: center;
+            height:50px; border-radius: 0; color: white; font-family: bold; font-size: 25px; margin-left: 65%; margin-top: 5%;
+            .arrow{width: 15%;margin-left: 10%;}
+           }
+    }
+
+    footer{background-color: black; height: 45vh; text-align: center; margin-top: 5%;
+        .log{width: 25%; margin-top: 4%; padding-bottom: 35px;}
+        .rec{width: 90%;}
+
+        // start foot
+        .foot{ padding-top: 30px;
+            a{color: white; text-decoration: none; font-family: regular; padding: 10px; font-size: 28px;}
+        }
+        // end foot
+    }
+    
+
+    // Contact Us
+    .banner1{height: 100vh;
+        h1{padding-top: 25%;}
+    }
+    .touch{margin-top: 5%;
+        h5{font-family: bold; font-size: 25px; color: gray; margin-left: 2%; padding-bottom: 10px;}
+        .line{width: 85%; height: 1px; margin-left: 2%;}
+        h3{font-family: bold; font-size: 40px; padding-top: 40px; margin-left: -10%; margin-right: 5%;line-height: 40px;}
+        .text{padding-top: 40px;
+            p{font-family: semi; color: gray; font-size: 25px; margin-left: 5%; line-height: 30px;}
+            .p{padding-top: 20px;}
+        }
+    }
+
+    .location{margin-top: 5%;
+        h5{font-family: bold; font-size: 25px; color: gray; margin-left: 2%; padding-bottom: 10px;}
+        .line{width: 85%; height: 1px; margin-left: 2%;}
+        h3{font-family: bold; font-size: 40px; padding-top: 40px; margin-left: -10%;line-height: 40px;}
+        p{font-family: semi; color: gray; font-size: 25px; margin-left: 5%; line-height: 30px;}
+    }
+    
+    // end Contact Us
 }

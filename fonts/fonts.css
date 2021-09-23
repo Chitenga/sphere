@@ -1,40 +1,14 @@
 @font-face {
-    font-family: black;
-    src: url("PantonDemo-Black.otf");
-}
-
-@font-face {
-    font-family: blackitalic;
-    src: url("PantonDemo-BlackItalic.otf");
-}
-@font-face {
-    font-family: light;
-    src: url("PantonDemo-Light.otf");
-}
-
-@font-face {
-    font-family:lighttalic;
-    src: url("PantonDemo-LightItalic.otf");
-}
-@font-face {
-    font-family:black;
-    src: url("PantonNarrowDemo-Black.otf");
-}
-
-@font-face {
-    font-family:blackitalic;
-    src: url("PantonNarrowDemo-BlackItalic.otf");
-}
-@font-face {
-    font-family:light;
-    src: url("PantonNarrowDemo-Light.otf");
-}
-
-@font-face {
-    font-family:lightitalic;
-    src: url("PantonNarrowDemo-LightItalic.otf");
-}
-@font-face {
     font-family: bold;
-    src: url("Montserrat-Bold.otf");
+    src: url("Panton-Bold.ttf");
+}
+
+@font-face {
+    font-family: semi;
+    src: url("Panton-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: regular;
+    src: url("Panton-Regular.ttf");
 }
